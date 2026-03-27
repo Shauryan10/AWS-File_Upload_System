@@ -55,4 +55,29 @@ User Upload → S3 Bucket → Lambda Trigger → SNS → Email Notification
 ## 🚀 Future Improvements
 - Store metadata in DynamoDB  
 - Filter file types  
-- Add frontend UI  
+- Add frontend UI
+
+---
+
+## 📸 Screenshots
+
+### 🪣 File Uploaded to S3 Bucket
+![S3 Upload](screenshots/s3.png)
+
+### ⚙️ Lambda Logs (Before SNS Integration)
+Shows Lambda execution without email notification.
+![Lambda Logs Before](screenshots/log(1).png)
+
+### ⚙️ Lambda Logs (After SNS Integration)
+Shows successful execution with SNS email notification.
+![Lambda Logs After](screenshots/log(2).png)
+
+### 📧 Email Notification Received
+![Email](screenshots/email.png)
+
+---
+
+## 📌 Conclusion
+
+This project helped in understanding how AWS services like S3, Lambda, and SNS work together to build scalable and automated cloud solutions using event-driven architecture.
+
